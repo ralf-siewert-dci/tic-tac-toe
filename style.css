@@ -1,0 +1,10 @@
+.field-container {
+  display: grid;
+  width: 303px;
+  grid-template-columns: repeat(3, auto);
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
