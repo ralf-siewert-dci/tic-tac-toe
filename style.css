@@ -35,6 +35,9 @@ button {
 button:enabled {
   background-color: mediumseagreen;
 }
+button:active {
+  background-color: green;
+}
 #game-state {
   padding: 20px;
 }

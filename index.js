@@ -63,7 +63,7 @@ const drawBoard = () => {
       break;
     case 1:
     case 2:
-      stateDiv.innerHTML = `Winner: Player ${gameState}`;
+      stateDiv.innerHTML = `Winner: 🏅 Player ${gameState} 🏅`;
       newGameButton.disabled = false;
       break;
     case 3:
