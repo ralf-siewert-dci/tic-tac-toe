@@ -1,6 +1,10 @@
 const board = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 let player = 0;
 
+// 0 -> game not finished
+// 1 -> winner player 1
+// 2 -> winner player 2
+// 3 -> draw‚
 const gameOver = () => {
   let winner = 0;
   //checkRows
@@ -63,7 +67,7 @@ const drawBoard = () => {
       break;
     case 1:
     case 2:
-      stateDiv.innerHTML = `Winner: 🏅 Player ${gameState} 🏅`;
+      stateDiv.innerHTML = `🏅 Player ${gameState} 🏅`;
       newGameButton.disabled = false;
       break;
     case 3:
